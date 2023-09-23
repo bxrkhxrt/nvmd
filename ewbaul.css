@@ -2,11 +2,15 @@
   width: 850px;
   height: 450px;
   margin: 0 auto;
-  background: linear-gradient(150deg, rgba(171,148,192,1) 0%, rgba(104,89,119,1) 15%, rgba(55,49,60,1) 40%, rgba(43,43,43,1) 60%);
+  background: linear-gradient(150deg, rgba(76,92,77,1) 0%, rgba(51,60,51,1) 32%, rgba(10,10,10,1) 55%);
   outline: 1px solid #2f2531;
   box-sizing: border-box;
   display: flex;
   flex-wrap: nowrap;
+}
+.ebaul br {display: none!important;}
+.ebaul * {
+  box-sizing: content-box;
 }
 .ebaul-right {
   width: 120px;
@@ -47,9 +51,10 @@
   writing-mode: vertical-rl;
   text-orientation: mixed;
   height: 200px;
+  line-height: 120%;
 }
 .ebaul-bckg {
-  background: linear-gradient(90deg, rgba(22,22,22,1) 25%, rgba(104,89,119,1) 70%, rgba(171,148,192,1) 90%);
+  background: linear-gradient(90deg, rgba(22,22,22,1) 25%, rgba(51,60,51,1) 70%, rgba(76,92,77,1) 90%);
   width: 300px;
   height: 420px;
   margin: 15px;
@@ -58,7 +63,7 @@
 .ebaul-img {
   display: flex;
   position: relative;
-  background: url('https://i.imgur.com/Tf8oEWo.png') no-repeat;
+  background: url('https://i.imgur.com/ALDBuWS.png') no-repeat;
   min-width: 280px;
   min-height: 400px;
   transition: .7s;
@@ -72,8 +77,8 @@
   z-index: 0;
   width: 100%;
   height: 100%;
-  background: url('https://i.imgur.com/kwfD8Ax.png') no-repeat;
-  filter: grayscale(1) brightness(40%);
+  background: url('https://i.imgur.com/MUyUIG7.png') no-repeat;
+  filter: grayscale(1) brightness(30%);
   opacity: 0;
   transition: .7s;
 }
@@ -93,8 +98,8 @@
 .ebaul-info {
   width: 100%;
   height: 140px;
-  border-right: 1px solid #ab94c0;
-  border-left: 1px solid #ab94c0;
+  border-right: 1px solid #4c5c4d;
+  border-left: 1px solid #4c5c4d;
   box-sizing: border-box;
 }
 .ebaul-infodesc {
@@ -111,7 +116,7 @@
   line-height: 125%;
 }
 .ebaul-infodesc b {
-  color: #8f73a9;
+  color: #759577;
   font-weight: 900;
   font-size: 11px;
   padding-right: 2px;
@@ -119,12 +124,12 @@
   align-item: center;
 }
 .ebaul-infodesc::-webkit-scrollbar {
-  background-color: #14141421;
+  background-color: #141414e3;
   height: 2px;
   width: 2px;
 }
 .ebaul-infodesc::-webkit-scrollbar-thumb {
-  background-color: #ab94c0;
+  background-color: #4c5c4d;
   height: 2px;
 }
 .ebaul-facts {
@@ -149,7 +154,7 @@
 }
 .ebaul-facts b {
   font-family: 'Prata', serif;
-  color: #ab94c0;
+  color: #759577;
   font-size: 10.5px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -190,8 +195,8 @@
   flex: 1 0 45%;
   text-decoration: none!important;
   font-size: 13px;
-  color: #ab94c0!important;
-  transition: .4s;
+  color: #4c5c4d!important;
+  transition: .7s;
   opacity: 1;
 }
 .ebaul-links>a:hover {
@@ -215,7 +220,7 @@
   font-family: "Font Awesome 6 Pro";
   font-weight: 700;
   font-size: 20px;
-  color: #ab94c0;
+  color: #759577;
   float: left;
   margin-top: 30px;
   margin-right: 20px;
