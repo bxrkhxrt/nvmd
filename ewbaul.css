@@ -3,7 +3,7 @@
   height: 450px;
   margin: 0 auto;
   background: linear-gradient(150deg, rgba(171,148,192,1) 0%, rgba(104,89,119,1) 15%, rgba(55,49,60,1) 40%, rgba(43,43,43,1) 60%);
-  outline: 1px solid #242b24;
+  outline: 1px solid #2f2531;
   box-sizing: border-box;
   display: flex;
   flex-wrap: nowrap;
