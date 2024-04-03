@@ -1,0 +1,176 @@
+.zcrono {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 900px;
+  height: 500px;
+  background-image: url('https://i.imgur.com/f69ueYU.png');
+  background-position: center;
+  outline: 1px solid #1f1923;
+}
+.zcrono * {
+  box-sizing: content-box;
+}
+.zcrono br {
+  display: none!important;
+}
+.zcrono-header {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  font-family: 'DM Serif Display', serif;
+  color: transparent;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 100%;
+  border-bottom: 1px solid #615a65;
+  display: flex;
+  justify-content: center;
+}
+.zcrono-header span {
+  -webkit-text-stroke: 0.3px #615a65;
+  opacity: .8;
+}
+.zcrono-cont {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 399px;
+}
+.zcrono-box1, .zcrono-box2 {
+  flex: 1 0 30%;
+  box-sizing: border-box;
+  border: 30px solid transparent;
+  border-right-width: 15px;
+  padding-right: 15px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  color: #bcbcbc;
+  text-transform: uppercase;
+  line-height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  gap: 10px;
+}
+.zcrono-box1::-webkit-scrollbar, .zcrono-box2::-webkit-scrollbar {
+    background-color: #14141461;
+    height: 2px;
+    width: 2px;
+}
+.zcrono-box1::-webkit-scrollbar-thumb, .zcrono-box2::-webkit-scrollbar-thumb {
+    background-color: #615a6578;
+    height: 2px;
+}
+.zcrono-title {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  width: 90px;
+  height: 100%;
+  color: transparent;
+  font-family: 'DM Serif Display', serif;
+  font-size: 45px;
+  font-style: italic;
+  text-align: center;
+  line-height: 330%;
+}
+.zcrono-title span {
+    -webkit-text-stroke: 0.3px #615a65;
+  opacity: .8;
+}
+.zcrono-data {
+  padding: 10px;
+  min-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.zcrono-cont .zcrono-data span {
+  color: #615a65;
+}
+.zcrono-tema {
+  margin: 0px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.zcrono-tema i {
+  width: 45px;
+  height: 45px;
+  background: #00000091;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-family: "Font Awesome 6 Pro";
+  color: #615a65;
+  font-style: normal;
+  font-size: 19px;
+}
+.zcrono-tema i:before {
+  content: "X";
+}
+.zcrono-tema#abierto i:before {
+  content: "\f3c2";
+}
+.zcrono-tema#cerrado i:before {
+  content: "\f30d";
+}
+.zcrono-tema#inconcluso i:before {
+  content: "\f084";
+}
+.zcrono-tema#entrenamiento i:before {
+  content: "\f44b";
+}
+.zcrono-tema#campista i:before {
+  content: "\f724";
+}
+.zcrono-tema#semidios i:before {
+  content: "\f71d";
+}
+.zcrono-tema#heroe i:before {
+  content: "\f6d5";
+}
+.zcrono-tema#leyenda i:before {
+  content: "\f70f";
+}
+.zcrono-tema#olimpico i:before {
+  content: "\e5d2";
+}
+.zcrono-tema#personal i:before {
+  content: "\f577";
+}
+.zcrono-tema#oficial i:before {
+  content: "\f57d";
+}
+.zcrono-tema#global i:before {
+  content: "\e02f";
+}
+.zcrono-tinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.zcrono-tinfo>span {
+  text-transform: lowercase;
+  line-height: 100%;
+  font-size: 10px;
+  line-height: 100%;
+}
+.zcrono-tinfo>a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #615a65;
+  font-size: 15px;
+  line-height: 100%;
+}
