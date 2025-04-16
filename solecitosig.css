@@ -31,7 +31,7 @@
   opacity: 0;
   transition: .7s;
 }
-.solsig2 h1 {
+.solsig2 span {
   font-family: 'Barlow Condensed';
   font-size: 8px;
   font-weight: 100;
